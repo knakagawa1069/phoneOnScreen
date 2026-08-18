@@ -4,7 +4,7 @@ export default function Index() {
   return (
     <View style={styles.ipadScreen}>
       <View style={styles.phoneContainer}>
-        <Text>Hi MAD</Text>
+        <Text style={styles.text}>asd</Text>
       </View>
     </View>
   );
@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#E5E5E5",
+    backgroundColor: "white",
   },
 
   phoneContainer: {
@@ -23,8 +23,15 @@ const styles = StyleSheet.create({
     height: 700,
     backgroundColor: "white",
     borderRadius: 35,
-    borderWidth: 2,
-    borderColor: "#222",
+    borderWidth: 10,
+    borderColor: "black",
     paddingTop: 20,
+  },
+
+  text: {
+    color: "black",
+    fontSize: 20,
+    alignContent: "center",
+    fontFamily: "monospace",
   },
 });
